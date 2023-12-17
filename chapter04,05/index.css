@@ -1,0 +1,74 @@
+.img-logo {
+    width: 90px;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.nav>ul {
+    display: flex;
+    font-size: 20px;
+
+}
+
+.nav>ul>li {
+    padding: 15px;
+    list-style: none;
+
+}
+
+.nav:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.filter-btn{
+    margin:10px;
+    cursor: pointer;
+}
+
+.input {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.search-bar {
+    display: flex;
+
+}
+
+.input {
+    margin-top: 10px;
+}
+
+.rest-card {
+    width: 200px;
+    padding: 5px 10px;
+    margin: 5px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 5px;
+}
+
+.A2Blogo {
+    width: 150px;
+    height: 150px;
+}
+
+.rest-card:hover {
+    border: 1px solid violet;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.restList {
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.imgLogo{
+    width:100%;
+}
